@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>WebApplication Template</title>
+<link rel="icon" type="image/x-icon" href="img/ultradev.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="./lib/stopwatch.js"></script>
+<script src="app/app-constants.js"></script>
+<!-- tag  ends-->
+<link rel="stylesheet" href="./codemirror/abcdef.css">
+
+<link href="datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
+<link href="datatable/bootstrap.css" rel="stylesheet">
+<script type="text/javascript" src="./lib/codemirror.js"></script>
+<script type="text/javascript" src="./lib/autorefresh.js"></script>
+<script type="text/javascript" src="./lib/javascript.js"></script>
+<script type="text/javascript" src="./lib/common-util.js"></script>
+<link rel="stylesheet" href="bs-4/bootstrap.min.css">
+<script src="bs-4/jquery.min.js"></script>
+<script src="bs-4/popper.min.js"></script>
+<script src="bs-4/bootstrap.min.js"></script>
+<script type="text/javascript" src="datatable/jquery.dataTables.min.js"></script>
+<script type="text/javascript"
+	src="datatable/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript"
+	src="datatable/bs4/dataTables.buttons.min.js"></script>
+<script type="text/javascript"
+	src="datatable/bs4/buttons.bootstrap4.min.js"></script>
+<script type="text/javascript" src="datatable/bs4/jszip.min.js"></script>
+<script type="text/javascript" src="datatable/bs4/pdfmake.min.js"></script>
+<script type="text/javascript" src="datatable/bs4/vfs_fonts.js"></script>
+<script type="text/javascript" src="datatable/bs4/buttons.html5.min.js"></script>
+<script type="text/javascript" src="datatable/bs4/buttons.print.min.js"></script>
+<script type="text/javascript"
+	src="datatable/bs4/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="datatable/bs4/buttons.colVis.min.js"></script>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+	<!--  placeholder action loader , populated by app-setup-->
+	<div id='_actionloader'></div> 
+	<div id="_header"></div>
+	<!--  starting the content -->
+	<div>	
+		<div class="container-fluid" id="homepagetabs">
+		</div>
+		<!-- Tab panes -->
+		<div class="tab-content container" id="menucontent">
+			<!-- start menu home  -->
+		</div>
+		<!-- This is datalist which can be hooken to any tab , by default hooked to home -->
+		<div id="serachdatalist" class="container tab-pane active" style="display: none;">
+				<br>
+				<div class="form-group small" style="width: 560px;margin: auto;" >
+					<input type="text" name="datalistval" list="caseIdName"
+						id="caseNameId"
+						placeholder="Start Typing Spring config property.."
+						class="form-control" required class="f13" ondblclick="clearAnFocus()" />
+				</div>
+			
+		</div>
+	</div>
+	<div id='_notification'></div>
+	</div>
+	<div id='_alertsuccess'></div>
+	<!--  placeholder warning alert , populated by app-setup-->
+	<div id='_alertwarning'></div>
+	<!--  placeholder danger alert , populated by app-setup-->
+	<div id='_alertdanger'></div>
+	<div id="_modal"></div>
+	<div id="_modal1"></div>
+	<div id="_modal2"></div>
+	<div id="_modal3"></div>
+<!-- 	<div id='_footer'></div> -->
+
+	<div id='_footer'></div>
+	<div id="errormodal"></div>
+</body>
+
+
+<script src="app/viewutils.js"></script>
+<script src="app/httputils.js"></script>
+<script src="app/app-util.js"></script>
+
+<script src="app/feature-datalist.js"></script>
+<script src="app/feature-navbar.js"></script>
+<script src="app/setup.js"></script>
+</html>
